@@ -19,9 +19,9 @@ $(document).ready(function() {
 
     var newPizza = new Pizza();
 
-    var crustSize = $("#size").val();
-    var meat = $("#meat").val();
-    var topping = $("#topping").val();
+    var crustSize = parseInt($("#size").val());
+    var meat = parseInt($("#meat").val());
+    var topping = parseInt($("#topping").val());
     var cost = newPizza.totalCost();
 
     $("#price").text(cost);
