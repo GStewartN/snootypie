@@ -7,7 +7,7 @@ function Pizza() {
 }
 
 Pizza.prototype.totalCost = function() {
-  this.cost = this.size += this.meat += this.topping;
+  this.cost = this.crustSize += this.meat += this.topping;
   return this.cost;
 }
 
