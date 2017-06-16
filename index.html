@@ -15,72 +15,65 @@
       </div>
       <div class="well">
         <h2>Make your selections here:</h2>
-        <div class="row">
-          <div class="col-md-4">
-            <form class="form-group">
-              <h3>Choose a size:</h3>
-              <select class="form-control" id="size">
-                <option value="20">Giant</option>
-                <option value="15">Large</option>
-                <option value="10">Medium</option>
-                <option value="5">Small</option>
-              </select>
-            </form>
+        <form id="pizza">
+          <div class="form-group">
+            <h3>Choose a size:</h3>
+            <select class="form-control" id="size">
+              <option value="20">Giant</option>
+              <option value="15">Large</option>
+              <option value="10">Medium</option>
+              <option value="5">Small</option>
+            </select>
           </div>
-          <div class="col-md-4">
-            <form class="form-group">
-              <h3>Choose meat:</h3>
-              <select class="form-control" id="meat">
-                <option value="3">Pepperoni</option>
-                <option value="3">Canadian Bacon</option>
-                <option value="3">Sausage</option>
-                <option value="2">Extra Cheese</option>
-              </select>
-            </form>
+          <div class="form-group">
+            <h3>Choose meat:</h3>
+            <select class="form-control" id="meat">
+              <option value="3">Pepperoni</option>
+              <option value="3">Canadian Bacon</option>
+              <option value="3">Sausage</option>
+              <option value="2">Extra Cheese</option>
+            </select>
           </div>
-          <div class="col-md-4">
-            <form class="form-group">
-              <h3>Choose topping:</h3>
-              <select class="form-control" class="toppings">
-                <option value="1">Pinapple</option>
-                <option value="1">Mushroom</option>
-                <option value="1">Black Olive</option>
-                <option value="1">Onion</option>
-                <option value="1">Bell Pepper</option>
-                <option value="1">Tomato</option>
-              </select>
-            </form>
-            <form class="form-group">
-              <h3>Choose another topping (optional):</h3>
-              <select class="form-control" class="toppings">
-                <option value="1">Pinapple</option>
-                <option value="1">Mushroom</option>
-                <option value="1">Black Olive</option>
-                <option value="1">Onion</option>
-                <option value="1">Bell Pepper</option>
-                <option value="1">Tomato</option>
-              </select>
-            </form>
-            <form class="form-group">
-              <h3>Choose another topping (optional):</h3>
-              <select class="form-control" class="toppings">
-                <option value="1">Pinapple</option>
-                <option value="1">Mushroom</option>
-                <option value="1">Black Olive</option>
-                <option value="1">Onion</option>
-                <option value="1">Bell Pepper</option>
-                <option value="1">Tomato</option>
-              </select>
-            </form>
-            <button type="submit" class="btn">submit</button>
+          <div class="form-group">
+            <h3>Choose topping:</h3>
+            <select class="form-control" class="toppings">
+              <option value="1">Pinapple</option>
+              <option value="1">Mushroom</option>
+              <option value="1">Black Olive</option>
+              <option value="1">Onion</option>
+              <option value="1">Bell Pepper</option>
+              <option value="1">Tomato</option>
+            </select>
           </div>
-        </div>
+          <div class="form-group">
+            <h3>Choose another topping (optional):</h3>
+            <select class="form-control" class="toppings">
+              <option value="1">Pinapple</option>
+              <option value="1">Mushroom</option>
+              <option value="1">Black Olive</option>
+              <option value="1">Onion</option>
+              <option value="1">Bell Pepper</option>
+              <option value="1">Tomato</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <h3>Choose another topping (optional):</h3>
+            <select class="form-control" class="toppings">
+              <option value="1">Pinapple</option>
+              <option value="1">Mushroom</option>
+              <option value="1">Black Olive</option>
+              <option value="1">Onion</option>
+              <option value="1">Bell Pepper</option>
+              <option value="1">Tomato</option>
+            </select>
+          </div>
+          <button type="submit" class="btn">submit</button>
+        </form>
       </div>
       <div class="well">
         <h3>Your fine Murican pizza will cost: $</h3>
         <span id="price"></span>
       </div>
-
     </div>
   </body>
 </html>
