@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Cruzzy's</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Welcome to Cruzzy's Snooty Pie</h1>
+        <p>We sell pizza. Don't let the name fool you, it ain't snooty. We have regular Murican pizza with regular Murican toppings. Nuttin snooty!</p>
+      </div>
+      <div class="well">
+        <h2>Make your selections here:</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <form>
+              <h3>Choose a size:</h3>
+              <input type="checkbox" name="size" value="20">
+              <label>Giant</label>
+              <input type="checkbox" name="size" value="15">
+              <label>Large</label>
+              <input type="checkbox" name="size" value="10">
+              <label>Medium</label>
+              <input type="checkbox" name="size" value="5">
+              <label>Small</label>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <form>
+              <h3>Choose meat:</h3>
+              <input type="checkbox" name="meat" value="3">
+              <label>Pepperoni</label>
+              <input type="checkbox" name="meat" value="3">
+              <label>Canadian Bacon</label>
+              <input type="checkbox" name="meat" value="3">
+              <label>Sausage</label>
+              <input type="checkbox" name="meat" value="2">
+              <label>Extra Cheese</label>
+            </form>
+          </div>
+          <div class="col-md-4">
+            <form>
+              <h3>Choose toppings:</h3>
+              <input type="checkbox" name="topping" value="1">
+              <label>Pinapple</label>
+              <input type="checkbox" name="topping" value="1">
+              <label>Mushroom</label>
+              <input type="checkbox" name="topping" value="1">
+              <label>Black Olive</label>
+              <input type="checkbox" name="topping" value="1">
+              <label>Onion</label>
+              <input type="checkbox" name="topping" value="1">
+              <label>Bell Pepper</label>
+              <input type="checkbox" name="topping" value="1">
+              <label>Tomato</label>
+            </form>
+            <button type="submit" class="btn">submit</button>
+          </div>
+        </div>
+      </div>
+      <div class="well">
+        <h3>Your fine Murican pizza will cost:</h3>
+        <span id="price"></span>
+      </div>
+
+    </div>
+  </body>
+</html>
