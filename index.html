@@ -17,53 +17,67 @@
         <h2>Make your selections here:</h2>
         <div class="row">
           <div class="col-md-4">
-            <form>
+            <form class="form-group">
               <h3>Choose a size:</h3>
-              <input type="checkbox" name="size" value="20">
-              <label>Giant</label>
-              <input type="checkbox" name="size" value="15">
-              <label>Large</label>
-              <input type="checkbox" name="size" value="10">
-              <label>Medium</label>
-              <input type="checkbox" name="size" value="5">
-              <label>Small</label>
+              <select class="form-control" id="size">
+                <option>Giant</option>
+                <option>Large</option>
+                <option>Medium</option>
+                <option>Small</option>
+              </select>
             </form>
           </div>
           <div class="col-md-4">
-            <form>
+            <form class="form-group">
               <h3>Choose meat:</h3>
-              <input type="checkbox" name="meat" value="3">
-              <label>Pepperoni</label>
-              <input type="checkbox" name="meat" value="3">
-              <label>Canadian Bacon</label>
-              <input type="checkbox" name="meat" value="3">
-              <label>Sausage</label>
-              <input type="checkbox" name="meat" value="2">
-              <label>Extra Cheese</label>
+              <select class="form-control" id="meat">
+                <option>Pepperoni</option>
+                <option>Canadian Bacon</option>
+                <option>Sausage</option>
+                <option>Extra Cheese</option>
+              </select>
             </form>
           </div>
           <div class="col-md-4">
-            <form>
-              <h3>Choose toppings:</h3>
-              <input type="checkbox" name="topping" value="1">
-              <label>Pinapple</label>
-              <input type="checkbox" name="topping" value="1">
-              <label>Mushroom</label>
-              <input type="checkbox" name="topping" value="1">
-              <label>Black Olive</label>
-              <input type="checkbox" name="topping" value="1">
-              <label>Onion</label>
-              <input type="checkbox" name="topping" value="1">
-              <label>Bell Pepper</label>
-              <input type="checkbox" name="topping" value="1">
-              <label>Tomato</label>
+            <form class="form-group">
+              <h3>Choose topping:</h3>
+              <select class="form-control" class="toppings">
+                <option>Pinapple</option>
+                <option>Mushroom</option>
+                <option>Black Olive</option>
+                <option>Onion</option>
+                <option>Bell Pepper</option>
+                <option>Tomato</option>
+              </select>
+            </form>
+            <form class="form-group">
+              <h3>Choose another topping (optional):</h3>
+              <select class="form-control" class="toppings">
+                <option>Pinapple</option>
+                <option>Mushroom</option>
+                <option>Black Olive</option>
+                <option>Onion</option>
+                <option>Bell Pepper</option>
+                <option>Tomato</option>
+              </select>
+            </form>
+            <form class="form-group">
+              <h3>Choose another topping (optional):</h3>
+              <select class="form-control" class="toppings">
+                <option>Pinapple</option>
+                <option>Mushroom</option>
+                <option>Black Olive</option>
+                <option>Onion</option>
+                <option>Bell Pepper</option>
+                <option>Tomato</option>
+              </select>
             </form>
             <button type="submit" class="btn">submit</button>
           </div>
         </div>
       </div>
       <div class="well">
-        <h3>Your fine Murican pizza will cost:</h3>
+        <h3>Your fine Murican pizza will cost: $</h3>
         <span id="price"></span>
       </div>
 
