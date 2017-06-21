@@ -6,7 +6,7 @@ function Pizza(crustSize, meat, topping) {
 }
 
 Pizza.prototype.totalCost = function() {
-  this.cost = this.crustSize += this.meat += this.topping;
+  this.cost = this.crustSize + this.meat + this.topping;
   return this.cost;
 }
 
@@ -16,11 +16,10 @@ $(document).ready(function() {
   $("form#pizza").submit(function(event) {
     event.preventDefault();
 
-    var newPizza = new Pizza(crustSize, meat, topping);
-
     var crustSize = parseInt($("#crust-size").val());
     var meat = parseInt($("#meat").val());
     var topping = parseInt($("#topping").val());
+    var newPizza = new Pizza(crustSize, meat, topping);
     var cost = newPizza.totalCost();
 
     $("#price").text(cost);
